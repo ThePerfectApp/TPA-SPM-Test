@@ -29,18 +29,18 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "ThePerfectApp",
-            url: "https://sdk.test.tpa.io/Apple/ThePerfectApp-6.0.0.rc1.zip",
-            checksum: "011aa649befee25b7e178753591a3ba8df2d2452f3f28ed1e57927ab34d59daa"
+            url: "https://sdk.test.tpa.io/Apple/ThePerfectApp-6.0.0.rc2.zip",
+            checksum: "3e1f7f35b8344ead4fd5fb9cec6b75417fed491a9bf7fcc9ae1cb99497153a21"
         ),
         .binaryTarget(
             name: "ThePerfectExtension",
-            url: "https://sdk.test.tpa.io/Apple/ThePerfectExtension-6.0.0.rc1.zip",
-            checksum: "9bae22f438ec16669c2979e7692ff6b3496e7a35ca9d70c913c805874cd41140"
+            url: "https://sdk.test.tpa.io/Apple/ThePerfectExtension-6.0.0.rc2.zip",
+            checksum: "bd854e17e600556eee3d21faea6dbaa3baeaaf3ca912b51a884a08613726506e"
         ),
         .binaryTarget(
             name: "ThePerfectTelevision",
-            url: "https://sdk.test.tpa.io/Apple/ThePerfectTelevision-6.0.0.rc1.zip",
-            checksum: "5e7571fbfaec6df4a7d7e2e8fb016ff4d6eaf6866bb2123cd112af2002ef5c7e"
+            url: "https://sdk.test.tpa.io/Apple/ThePerfectTelevision-6.0.0.rc2.zip",
+            checksum: "d47fb4d6afd446ab57caaa2dad1f80363d91d0593f0ccb5c1797aa55071761d1"
         ),
     ]
 )
